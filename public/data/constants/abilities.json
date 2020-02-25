@@ -1,0 +1,92 @@
+{
+    "abilities":[
+        {
+            "name": "Overgrow",
+            "trigger": "hpChangeEnd",
+            "checks": [
+                [
+                    {
+                        "type": "status",
+                        "target": "self",
+                        "status": "wounded",
+                        "value": true,
+                        "reversible": true
+                    }
+                ]
+            ],
+            "effects": [
+                [
+                    {
+                        "changeStat":{
+                            "stat": "atk",
+                            "oper": "+",
+                            "amount": 3
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Chlorophyll",
+            "trigger": "weatherChange",
+            "checks":[
+                [
+                    {
+                        "type": "weather",
+                        "weather": "Sunny",
+                        "value": true,
+                        "reversible": true
+                    }
+                ]
+            ],
+            "effects":[
+                [
+                    {
+                        "changeStat":{
+                            "stat": "spd",
+                            "oper": "+",
+                            "amount": 2
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Blaze",
+            "trigger": "hpChangeEnd",
+            "checks": [
+                [
+                    {
+                        "type": "status",
+                        "target": "self",
+                        "status": "wounded",
+                        "value": true,
+                        "reversible": true
+                    }
+                ]
+            ],
+            "effects": [
+                [
+                    {
+                        "changeStat":{
+                            "stat": "atk",
+                            "oper": "+",
+                            "amount": 3
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Quick Attack",
+            "trigger": "attackEnd",
+            "effects":[
+                [
+                    {
+                        "refresh": "move"
+                    }
+                ]
+            ]
+        }
+    ]
+}

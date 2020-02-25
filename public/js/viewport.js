@@ -76,7 +76,7 @@ Quintus.Viewport = function(Q){
         
         Q.viewFollow(toFollow);
         return;*/
-        stage.viewport.scale = 1.5;
+        stage.viewport.scale = 2;
         //The viewSprite is what moves when dragging the viewport
         stage.viewSprite = stage.insert(new Q.ViewSprite());
         stage.viewSprite.centerOn(toFollow.p.loc);

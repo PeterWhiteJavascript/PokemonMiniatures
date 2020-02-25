@@ -1,0 +1,48 @@
+{
+    "actions":[
+        {
+            "name": "Physical Attack 1",
+            "range": 1,
+            "targets": "enemy",
+            "attack": true
+        },
+        {
+            "name": "Leech Seed",
+            "range": 4,
+            "dmg": 10,
+            "targets": "enemy",
+            "attack": true,
+            "effects":[
+                {
+                    "changeHp": 10,
+                    "targets": "self"
+                }
+            ]
+        },
+        {
+            "name": "Growth",
+            "range": 0,
+            "targets": "self",
+            "move": true,
+            "effects":[
+                {
+                    "addStatus": [["Growth", 1]],
+                    "targets": "self"
+                }
+            ]
+        },
+        {
+            "name": "Smokescreen",
+            "range": 0,
+            "aoe": 4,
+            "targets": "self",
+            "attack": true,
+            "effects":[
+                {
+                    "addStatus": [["Smokescreen", 1]],
+                    "targets": "all"
+                }
+            ]
+        }
+    ]
+}

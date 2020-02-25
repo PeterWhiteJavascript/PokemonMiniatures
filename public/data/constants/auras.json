@@ -1,0 +1,17 @@
+{
+    "auras":[
+        {
+            "name": "Venusaur",
+            "buff":{
+                "target":{
+                    "team": "ally",
+                    "name": ["Bulbasaur", "Ivysaur"]
+                },
+                "gain":{
+                    "ability": ["Chlorophyll"]
+                }
+            },
+            "range": "global"
+        }
+    ]
+}

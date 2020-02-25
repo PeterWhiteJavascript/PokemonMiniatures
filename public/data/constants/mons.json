@@ -1,0 +1,124 @@
+{
+    "_TEMPLATE":{
+        "name": "",
+        "type": "",
+        "hp": 0,
+        "def": 0,
+        "atk": 0,
+        "dmg": 10,
+        "spd": 6,
+        "actions":[
+            "Physical Attack 1"
+        ],
+        "abilities":[
+            
+        ],
+        "power":{
+            "num": 0,
+            "powers":[]
+        },
+        "auras":[
+            
+        ]
+    },
+    "001": {
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "hp": 30,
+        "def": 11,
+        "atk": 5,
+        "dmg": 10,
+        "spd": 4,
+        "actions":[
+            "Physical Attack 1",
+            "Leech Seed"
+        ],
+        "abilities":[
+            "Overgrow"
+        ],
+        "power":{
+            "num": 0,
+            "powers":[]
+        },
+        "auras":[
+            
+        ]
+    },
+    "003":{
+        "name": "Venusaur",
+        "type": "Grass",
+        "hp": 60,
+        "def": 15,
+        "atk": 9,
+        "dmg": 20,
+        "spd": 6,
+        "actions":[
+            "Physical Attack 1",
+            "Leech Seed",
+            "Growth"
+        ],
+        "abilities":[
+            "Chlorophyll"
+        ],
+        "power":{
+            "num": 3,
+            "powers":[
+                "Solar Beam"
+            ]
+        },
+        "auras":[
+            "Venusaur"
+        ]
+    },
+    "004":{
+        "name": "Charmander",
+        "type": "Fire",
+        "hp": 30,
+        "def": 9,
+        "atk": 5,
+        "dmg": 10,
+        "spd": 6,
+        "actions":[
+            "Physical Attack 1",
+            "Smokescreen"
+        ],
+        "abilities":[
+            "Blaze"
+        ],
+        "power":{
+            "num": 0,
+            "powers":[]
+        },
+        "auras":[
+            
+        ]
+    },
+    "006":{
+        "name": "Charizard",
+        "type": "Fire",
+        "hp": 60,
+        "def": 14,
+        "atk": 9,
+        "dmg": 20,
+        "spd": 6,
+        "actions":[
+            "Physical Attack 2",
+            "Double Attack"
+        ],
+        "abilities":[
+            "Flying",
+            "Quick Attack"
+        ],
+        "power":{
+            "num": 3,
+            "powers":[
+                "Fire Blast",
+                "Dragon Rage"
+            ]
+        },
+        "auras":[
+            "Charizard"
+        ]
+    }
+    
+}
